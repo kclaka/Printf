@@ -1,0 +1,2 @@
+language: java
+script: output=$(ant test-and-print-score); echo "$output"; bash post_score.sh "$output"
