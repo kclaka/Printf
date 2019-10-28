@@ -77,18 +77,10 @@ For this assignment the unit tests will test the following:
 
 7. A call to `format` with a format specifier that container a specifier for a hexadecimal `int`, and an argument with a number. This test is run twice to see if either or both of lower and upper case are supported. Failing this test does not mean you fail in general, just that you don't get some or all of the extra credit.
 
-### How to turn in this exercise
+**How to turn in this exercise**
 
-The first step of turning in your code is to commit and push your code to GitHub. Once you've completed this step your code will be on GitHub in your repository, not the repository for the class. This will allow you to use all your projects later as a portfolio.
+Next you'll want to run these unit tests. Start by right-clicking on the unittest.cs105 package and selecting Run As -> JUnit Test.
 
-To start the process write click your project and select **Team -> Commit...** and follow the usual procedures.
+To go back to the project view, select the Package Explorer tab.
 
-####Completing the turn-in process
-
-Now to complete the turn-in process, once you confirmed that your code is on GitHub, you need to create a **pull request** against the class GitHub repository. This action will indicate to the original project that you have finished your coding and it will create a place to give feedback on a line by line basis. 
-
-Go to **your** repository for this assignment on GitHub and click on the **Pull Request** icon.
- 
-1\. Click on **New pull request**
-
-2\. Click on **Create pull request**
+Review the [submission instructions](https://canvas.sbcc.edu/courses/25766/modules/items/735514).
