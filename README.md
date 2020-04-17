@@ -6,7 +6,7 @@ The project name of this exercise is **Printf**
 
 The purpose of this assignment is to give you an opportunity to apply what you learned about methods as well as learn more about what the `printf` method does.
 
-You are going to write a Main class that contains at least one method other than `main`. You can also define other methods that help to better organize the code and avoid code duplication.
+You are going to write a Main class that contains at least one method other than `Main`. You can also define other methods that help to better organize the code and avoid code duplication.
 
 The signature of the method (i.e. the input parameters, name and return type) of this method will be as follow:
 

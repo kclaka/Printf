@@ -6,7 +6,7 @@
     <property name="classes.dir" value="${build.dir}/classes"/>
     <property name="jar.dir"     value="${build.dir}/jar"/>
 
-    <property name="main-class"  value="edu.sbcc.cs105.${ant.project.name}"/>
+    <property name="Main-class"  value="edu.sbcc.cs105.${ant.project.name}"/>
 
     <property name="lib.dir"     value="lib"/>
     <property name="report.dir"  value="${build.dir}/test-reports"/>
@@ -85,6 +85,6 @@
 
     <target name="clean-build" depends="clean,jar"/>
 
-    <target name="main" depends="clean,run"/>
+    <target name="Main" depends="clean,run"/>
 
 </project>
