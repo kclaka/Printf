@@ -1,36 +1,33 @@
 package edu.sbcc.cs105;
+import java.util.Formatter;
 import java.util.regex.*;
-import java.util.IllegalFormatConversionException;
 
 public class Main {
 
 
     public static void main(String[] args) {
-        try{
-            System.out.println(format("hello world", checkMatch("%3f")));
-        }catch (IllegalArgumentException e){
-            System.out.println(e);
-        }
-
+        System.out.println(format("Hello %s", "Kira"));
     }
 
     static public String format(String format, Object... values) {
-
-        checkMatch(format);
-
-        return format;
-
+        try{
+            return new Formatter().format(format, values).toString();
+        }catch (IllegalArgumentException e ){
+            throw e;
+        }
     }
 
 
-    static boolean checkMatch(String inputText) {
+
+//We dont need to build a RegEx method from scratch  to solve 97% of this problem
+
+  /*  static boolean checkMatch(String inputText) {
         String regExPattern = "%(\\\\d+)?(\\\\.(\\\\d+))?([SsDdFfXx])";
         Pattern p = Pattern.compile(regExPattern);
         Matcher matcher = p.matcher(inputText);
         boolean match = matcher.matches();
-       
         return match;
-    }
+   }*/
 
 
 }
